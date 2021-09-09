@@ -12,7 +12,58 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.user {
+  width: 30%;
+  margin: 40px auto;
+}
+.imm {
+  width: 100%;
+  height: 300px;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .user {
+    width: 40%;
+    margin: 40px auto;
+  }
+  .imm {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .user {
+    width: 50%;
+    margin: 40px auto;
+  }
+  .imm {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 500px) {
+  .user {
+    width: 70%;
+    margin: 40px auto;
+  }
+  .imm {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .user {
+    width: 90%;
+    margin: 40px auto;
+  }
+  .imm {
+    width: 100%;
+    height: 300px;
+  }
+}
+.loader {
+  width: 60%;
+  margin: 40px auto;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
